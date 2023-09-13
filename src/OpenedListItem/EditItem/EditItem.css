@@ -1,0 +1,47 @@
+.profileInfo{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.description{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 12px;
+}
+.openListCtn{
+    border: 1px solid #ddddde;
+    border-radius: 8px;
+    margin: 16px 0;
+    padding: 8px 20px;
+}
+.profileItem{
+    color: #9f9fa1;
+    padding: 4px 0;
+    margin-bottom:2px;
+}
+.editInput{
+    margin-right: 20px;
+    width: 112px;
+    padding: 4px 8px;
+    border: 1px solid #ddddde;
+    border-radius: 8px;
+}
+.textareaDesc{
+    margin-right: 20px;
+    padding: 4px 8px;
+    border: 1px solid #ddddde;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+    height: 114px;
+}
+.icons{
+    margin-top: 16px;
+    display: flex;
+    justify-content: end;
+}
+.svgIcon{
+    margin: 4px;
+    padding: 4px;
+}

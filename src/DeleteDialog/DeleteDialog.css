@@ -1,0 +1,43 @@
+.deleteBackground{
+    position: absolute;
+    background-color: #f1f1f2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(0,0,0,0.7);
+}
+.deleteCtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #f1f1f2;
+    border-radius: 8px;
+    width: 45%;
+}
+.deleteHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cancelBtn{
+    border: 1px solid #b4b4b6;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 4px 14px;
+    color: #27272c;
+}
+.deleteBtn{
+    padding: 4px 14px;
+    border-radius: 8px;
+    background-color: #ff3500;
+    color: #fff;
+}
+.popupBtnCtn{
+    display: flex;
+    justify-content: end;
+}
